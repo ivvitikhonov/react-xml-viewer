@@ -1,0 +1,39 @@
+{
+    "name": "react-xml-viewer-example",
+    "homepage": ".",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+        "@types/node": "^20.3.1",
+        "@types/react": "^18.2.12",
+        "@types/react-dom": "^18.2.5",
+        "react-scripts": "^5.0.1"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.12.1",
+        "react-xml-viewer": "link:..",
+        "typescript": "^5.1.0"
+    }
+}
