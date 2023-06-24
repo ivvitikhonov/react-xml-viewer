@@ -4,6 +4,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
 import eslint from "@rollup/plugin-eslint";
 import nodePolyfills from "rollup-plugin-node-polyfills";
+import terser from "@rollup/plugin-terser";
 
 import packageJson from "./package.json";
 
@@ -41,7 +42,8 @@ export default {
         eslint(),
         commonjs(),
         typescript(),
-        nodePolyfills()
+        nodePolyfills(),
+        terser()
     ],
     external: ["react"]
 };
